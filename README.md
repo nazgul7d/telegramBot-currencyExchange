@@ -11,10 +11,10 @@ euro dollar 100
 /values: Display information about all available currencies.
 
 # Implementation Details
-The bot is built using the Telebot library (pytelegrambotapi).
-The extensions.py file contains classes for handling currency conversion, exceptions, and API requests.
-The CurrencyConverter class in extensions.py includes a static method get_price() for obtaining the currency conversion.
-The bot handles user input errors, such as incorrect or non-existent currencies or improperly entered numbers, by raising a custom ConversionException with explanatory error messages.
+- The bot is built using the Telebot library (pytelegrambotapi).
+- The extensions.py file contains classes for handling currency conversion, exceptions, and API requests.
+- The CurrencyConverter class in extensions.py includes a static method get_price() for obtaining the currency conversion.
+- The bot handles user input errors, such as incorrect or non-existent currencies or improperly entered numbers, by raising a custom ConversionException with explanatory error messages.
 
 # Configuration
 To run the bot, you need to provide a Telegram bot token and configure the list of available currencies. Store the bot token in a separate config.py file.
@@ -22,7 +22,6 @@ To run the bot, you need to provide a Telegram bot token and configure the list 
 # config.py
 TOKEN = "your_telegram_bot_token"
 
-# List of available currencies
 currencies = {
     "USD": "US Dollar",
     "EUR": "Euro",
@@ -35,8 +34,8 @@ Ensure you have the necessary dependencies installed by running:
 pip install pytelegrambotapi requests
 
 # Getting Started
-Install dependencies.
-Set up your Telegram bot and obtain the token.
-Configure the bot token and available currencies in config.py.
-Run the script.
+1. Install dependencies.
+2. Set up your Telegram bot and obtain the token.
+3. Configure the bot token and available currencies in config.py.
+4. Run the script.
 
