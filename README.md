@@ -31,7 +31,7 @@ currencies = {
 
 # Dependencies
 Ensure you have the necessary dependencies installed by running:
-pip install pytelegrambotapi requests
+```pip install pytelegrambotapi requests```
 
 # Getting Started
 1. Install dependencies.
