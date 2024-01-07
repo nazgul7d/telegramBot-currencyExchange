@@ -7,8 +7,8 @@ For example:
 euro dollar 100
 
 # Commands
-/start or /help: Get instructions on how to use the bot.
-/values: Display information about all available currencies.
+- /start or /help: Get instructions on how to use the bot.
+- /values: Display information about all available currencies.
 
 # Implementation Details
 - The bot is built using the Telebot library (pytelegrambotapi).
