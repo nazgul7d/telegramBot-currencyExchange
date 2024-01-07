@@ -1,4 +1,4 @@
-# Currency Converter Telegram Bot
+🤖 # Currency Converter Telegram Bot 🤖
 This Telegram bot allows users to retrieve the price of a specific amount of currency (euro, dollar, canadian dollar or tenge) converted to another currency. The bot utilizes the pytelegrambotapi library for Telegram bot functionality and makes use of Requests and JSON libraries for handling currency conversion API requests.
 # How to Use
 To interact with the bot, send a message in the following format: ```base_currency target_currency amount```  
