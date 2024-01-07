@@ -1,7 +1,7 @@
 # Configuration file for the Telegram bot
 
 # Telegram Bot Token obtained from BotFather
-TOKEN = '6807667236:AAEv9WZza9HMCZexW_G7n-7eevKJ2euMrlg'
+TOKEN = 'Your Telegram Token'
 
 # Dictionary mapping human-readable currency names to their respective currency codes
 currencies = {
