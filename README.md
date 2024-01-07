@@ -23,10 +23,10 @@ To run the bot, you need to provide a Telegram bot token and configure the list 
 TOKEN = "your_telegram_bot_token"
 
 currencies = {
-    "USD": "US Dollar",
-    "EUR": "Euro",
-    "RUB": "Russian Ruble",
-    # Add more currencies as needed
+            'dollar': 'USD',
+            'canadian_dollar': 'CAD',
+            'tenge': 'KZT',
+            'euro': 'EUR',
 }
 
 # Dependencies
